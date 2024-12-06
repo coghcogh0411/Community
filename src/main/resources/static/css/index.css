@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* 기본 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#logo img {
+    max-height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* 헤더 영역 */
+#indexArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+#menuArea {
+    display: flex;
+    gap: 15px; /* 메뉴 간 간격 */
+}
+
+#menuArea a {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#menuArea a:hover {
+    background-color: #0056b3;
+}
+
+/* 푸터 */
+footer {
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
