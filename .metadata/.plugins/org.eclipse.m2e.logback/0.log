@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 2024-12-09 16:40:05,255 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+=======
+2024-12-09 17:00:08,141 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+>>>>>>> Stashed changes
